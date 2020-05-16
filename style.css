@@ -1,0 +1,37 @@
+title, div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+title {
+  text-align: center;
+  font-style: normal;
+  flex-shrink: inherit;
+  color: tan; }
+
+div p {
+  color: black; }
+
+img:hover {
+  box-shadow: 0 0 2px 1px black;
+  max-width: 100%;
+  height: auto; }
+
+@media (min-width: 500px) {
+  body {
+    background-color: tan; } }
+@media (max-width: 499px) {
+  body {
+    background-color: #4cd43d; } }
+body {
+  display: flex;
+  flex-wrap: wrap; }
+
+th {
+  color: violet;
+  font-size: large; }
+
+td {
+  font-size: large; }
+
+/*# sourceMappingURL=style.css.map */
